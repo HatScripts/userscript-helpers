@@ -6,7 +6,7 @@ Some helper functions for userscripts, including:
 ### Usage examples
 Add to your userscript's [metadata block](https://wiki.greasespot.net/Metadata_Block):
 ```javascript
-// @require https://cdn.rawgit.com/HatScripts/UserscriptHelpers/3c55360a/applyCss.min.js
+// @require https://rawgit.com/HatScripts/UserscriptHelpers/master/applyCss.min.js
 ```
 And then call it like so:
 ```javascript
