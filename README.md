@@ -12,7 +12,7 @@ And then call it like so:
 ```javascript
 applyCss('body { color: white; background-color: black; } img { border: 0; }');
 ```
-or
+Or with a multi-line string ([ES6+](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals#Multi-line_strings)):
 ```javascript
 applyCss(`
 body {
