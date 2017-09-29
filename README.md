@@ -1,6 +1,6 @@
 # Userscript helpers
 Some helper functions for userscripts, including:
-* [`applyCss()`](#applyCss) - Applies a string of CSS to the document
+* [`applyCss()`](#applycss) - Applies a string of CSS to the document
 * More to come...
 
 ## `applyCss()`
