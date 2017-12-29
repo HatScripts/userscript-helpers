@@ -16,7 +16,7 @@ function hashCode(str) {
  * @returns {boolean} Whether the CSS was enabled or disabled.
  */
 function toggleCss(css) {
-    var id = hashCode(css);
+    var id = '' + hashCode(css);
     var style = document.getElementById(id);
     if (style) {
         style.parentNode.removeChild(style);
