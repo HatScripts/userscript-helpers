@@ -2,6 +2,7 @@
 Some helper functions for userscripts, including:
 * [`ready()`](#ready) - Specify a function to execute when the DOM is fully loaded.
 * [`applyCss()`](#applycss) - Applies a string of CSS to the document.
+* [`toggleCss()`](#togglecss) - Toggles a string of CSS within the document.
 * More to come...
 
 ## `ready()`
@@ -38,6 +39,31 @@ applyCss('body { color: white; background-color: black; } img { border: 0; }');
 Or with a multi-line string ([ES6+][multi-line]):
 ```js
 applyCss(`
+body {
+  color: white;
+  background-color: black;
+}
+img {
+  border: 0;
+}
+`);
+```
+
+## `toggleCss()`
+> Toggles a string of CSS within the document.
+> If the specified CSS has not been applied to the page, it will be, else it will be removed.
+
+To use it in your userscript, add this line to the [metadata block][gs-meta]:
+```js
+// @require https://rawgit.com/HatScripts/UserscriptHelpers/master/toggleCss.min.js
+```
+And then call it like so:
+```js
+toggleCss('body { color: white; background-color: black; } img { border: 0; }');
+```
+Or with a multi-line string ([ES6+][multi-line]):
+```js
+toggleCss(`
 body {
   color: white;
   background-color: black;
