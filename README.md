@@ -1,9 +1,10 @@
 # Userscript helpers
-Some helper functions for userscripts, including:
+General helper functions for use in userscripts, bookmarklets, or wherever else you need them.
+
 * [`ready()`](#ready) - Specify a function to execute when the DOM is fully loaded.
 * [`applyCss()`](#applycss) - Applies a string of CSS to the document.
 * [`toggleCss()`](#togglecss) - Toggles a string of CSS within the document.
-* More to come...
+* More to come. Feel free to request a function to be added.
 
 ## `ready()`
 > Specify a function to execute when the [DOM][dom] is fully loaded.
