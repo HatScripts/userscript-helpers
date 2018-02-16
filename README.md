@@ -4,7 +4,7 @@ General helper functions for use in userscripts, bookmarklets, or wherever else 
 * [`ready()`](#ready) - Specify a function to execute when the DOM is fully loaded.
 * [`applyCss()`](#applycss) - Applies a string of CSS to the document.
 * [`toggleCss()`](#togglecss) - Toggles a string of CSS within the document.
-* More to come. Feel free to request a function to be added.
+* More to come. Feel free to [request a function][req] or [create a pull request][pr].
 
 ## `ready()`
 > Specify a function to execute when the [DOM][dom] is fully loaded.
@@ -75,6 +75,8 @@ img {
 `);
 ```
 
+[req]: https://github.com/HatScripts/UserscriptHelpers/issues/new?title=Function%20request:%20{functionName}&template=function_request.md
+[pr]: https://github.com/HatScripts/UserscriptHelpers/pulls
 [dom]: https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction "Document Object Model"
 [multi-line]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals#Multi-line_strings
 [jq]: https://jquery.com/ "jQuery is a cross-platform JavaScript library designed to simplify the client-side scripting of HTML."
