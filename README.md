@@ -15,7 +15,7 @@ This function is useful if you want a part of your code to execute only after th
 
 To use it in your userscript, add this line to the [metadata block][gs-meta]:
 ```js
-// @require https://rawgit.com/HatScripts/UserscriptHelpers/master/ready.min.js
+// @require https://raw.githubusercontent.com/HatScripts/UserscriptHelpers/master/ready.min.js
 ```
 And then call it like so:
 ```js
@@ -31,7 +31,7 @@ This function is intended to be a more robust alternative to [GM_addStyle][gs-ad
 
 To use it in your userscript, add this line to the [metadata block][gs-meta]:
 ```js
-// @require https://rawgit.com/HatScripts/UserscriptHelpers/master/applyCss.min.js
+// @require https://raw.githubusercontent.com/HatScripts/UserscriptHelpers/master/applyCss.min.js
 ```
 And then call it like so:
 ```js
@@ -56,7 +56,7 @@ img {
 
 To use it in your userscript, add this line to the [metadata block][gs-meta]:
 ```js
-// @require https://rawgit.com/HatScripts/UserscriptHelpers/master/toggleCss.min.js
+// @require https://raw.githubusercontent.com/HatScripts/UserscriptHelpers/master/toggleCss.min.js
 ```
 And then call it like so:
 ```js
