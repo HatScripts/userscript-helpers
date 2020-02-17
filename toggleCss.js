@@ -8,10 +8,10 @@
  */
 function toggleCss (css, state) {
   // Get hash of the CSS string to use as the id.
-  var id = '' + css.split('').reduce(function (prevHash, currVal) {
+  const id = '' + css.split('').reduce((prevHash, currVal) => {
     return ((prevHash << 5) - prevHash) + currVal.charCodeAt(0)
   }, 0)
-  var style = document.getElementById(id)
+  let style = document.getElementById(id)
   if (style) {
     if (state === undefined || state === false) {
       // The CSS was found on the page; remove it and return false.
@@ -26,7 +26,7 @@ function toggleCss (css, state) {
       style = document.createElement('style')
       style.id = id
       style.appendChild(document.createTextNode(css))
-      var parent = document.querySelector('head') || document.body || document.documentElement
+      const parent = document.head || document.body || document.documentElement
       parent.appendChild(style)
       return true
     } else {
