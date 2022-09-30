@@ -15,7 +15,7 @@ This function is useful if you want a part of your code to execute only after th
 
 To use it in your userscript, add this line to the [metadata block][gs-meta]:
 ```js
-// @require https://raw.githubusercontent.com/HatScripts/UserscriptHelpers/master/ready.min.js
+// @require https://raw.githubusercontent.com/HatScripts/userscript-helpers/master/ready.min.js
 ```
 And then call it like so:
 ```js
@@ -31,7 +31,7 @@ This function is intended to be a more robust alternative to [GM_addStyle][gs-ad
 
 To use it in your userscript, add this line to the [metadata block][gs-meta]:
 ```js
-// @require https://raw.githubusercontent.com/HatScripts/UserscriptHelpers/master/applyCss.min.js
+// @require https://raw.githubusercontent.com/HatScripts/userscript-helpers/master/applyCss.min.js
 ```
 And then call it like so:
 ```js
@@ -56,7 +56,7 @@ img {
 
 To use it in your userscript, add this line to the [metadata block][gs-meta]:
 ```js
-// @require https://raw.githubusercontent.com/HatScripts/UserscriptHelpers/master/toggleCss.min.js
+// @require https://raw.githubusercontent.com/HatScripts/userscript-helpers/master/toggleCss.min.js
 ```
 And then call it like so:
 ```js
@@ -75,8 +75,8 @@ img {
 `);
 ```
 
-[req]: https://github.com/HatScripts/UserscriptHelpers/issues/new?title=Function%20request:%20{functionName}&template=function_request.md
-[pr]: https://github.com/HatScripts/UserscriptHelpers/pulls
+[req]: https://github.com/HatScripts/userscript-helpers/issues/new?title=Function%20request:%20{functionName}&template=function_request.md
+[pr]: https://github.com/HatScripts/userscript-helpers/pulls
 [dom]: https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction "Document Object Model"
 [multi-line]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals#Multi-line_strings
 [jq]: https://jquery.com/ "jQuery is a cross-platform JavaScript library designed to simplify the client-side scripting of HTML."
