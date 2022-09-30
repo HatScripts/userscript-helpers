@@ -74,6 +74,11 @@ img {
 }
 `)
 ```
+Or with a second parameter (`true` or `false`):
+```js
+toggleCss('body { color: white; }', true)  // Enables the given CSS
+toggleCss('body { color: white; }', false) // Disables the given CSS
+```
 
 [req]: https://github.com/HatScripts/userscript-helpers/issues/new?title=Function%20request:%20{functionName}&template=function_request.md
 [pr]: https://github.com/HatScripts/userscript-helpers/pulls
