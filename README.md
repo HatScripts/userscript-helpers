@@ -19,9 +19,9 @@ To use it in your userscript, add this line to the [metadata block][gs-meta]:
 ```
 And then call it like so:
 ```js
-ready(function() {
-  console.log('DOM is ready');
-});
+ready(() => {
+  console.log('DOM is ready')
+})
 ```
 
 ## `applyCss()`
@@ -35,7 +35,7 @@ To use it in your userscript, add this line to the [metadata block][gs-meta]:
 ```
 And then call it like so:
 ```js
-applyCss('body { color: white; background-color: black; } img { border: 0; }');
+applyCss('body { color: white; background-color: black; } img { border: 0; }')
 ```
 Or with a multi-line string ([ES6+][multi-line]):
 ```js
@@ -47,7 +47,7 @@ body {
 img {
   border: 0;
 }
-`);
+`)
 ```
 
 ## `toggleCss()`
@@ -60,7 +60,7 @@ To use it in your userscript, add this line to the [metadata block][gs-meta]:
 ```
 And then call it like so:
 ```js
-toggleCss('body { color: white; background-color: black; } img { border: 0; }');
+toggleCss('body { color: white; background-color: black; } img { border: 0; }')
 ```
 Or with a multi-line string ([ES6+][multi-line]):
 ```js
@@ -72,7 +72,7 @@ body {
 img {
   border: 0;
 }
-`);
+`)
 ```
 
 [req]: https://github.com/HatScripts/userscript-helpers/issues/new?title=Function%20request:%20{functionName}&template=function_request.md
